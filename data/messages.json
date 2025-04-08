@@ -1,0 +1,74 @@
+{
+  "bigneu_laurinha": [
+    {
+      "from": "bigneu",
+      "to": "laurinha",
+      "text": "Oii laura",
+      "timestamp": "2025-04-08T17:02:29.311Z"
+    },
+    {
+      "from": "bigneu",
+      "to": "laurinha",
+      "text": "tudo bem?",
+      "timestamp": "2025-04-08T17:02:47.134Z"
+    },
+    {
+      "from": "laurinha",
+      "to": "bigneu",
+      "text": "tudo, e contigo?",
+      "timestamp": "2025-04-08T17:02:56.702Z"
+    },
+    {
+      "from": "bigneu",
+      "to": "laurinha",
+      "text": "que bom laura",
+      "timestamp": "2025-04-08T17:03:14.255Z"
+    },
+    {
+      "from": "bigneu",
+      "to": "laurinha",
+      "text": "Oii laura",
+      "timestamp": "2025-04-08T17:05:32.381Z"
+    },
+    {
+      "from": "laurinha",
+      "to": "bigneu",
+      "text": "Oii vini",
+      "timestamp": "2025-04-08T17:05:39.261Z"
+    },
+    {
+      "from": "bigneu",
+      "to": "laurinha",
+      "text": "Oii laura",
+      "timestamp": "2025-04-08T17:08:52.338Z"
+    }
+  ],
+  "bigneu_brunoSenai": [
+    {
+      "from": "brunoSenai",
+      "to": "bigneu",
+      "text": "Fala vini",
+      "timestamp": "2025-04-08T17:10:41.710Z"
+    },
+    {
+      "from": "brunoSenai",
+      "to": "bigneu",
+      "text": "Eae vinicius",
+      "timestamp": "2025-04-08T17:12:00.255Z"
+    },
+    {
+      "from": "bigneu",
+      "to": "brunoSenai",
+      "text": "Beleza professor?",
+      "timestamp": "2025-04-08T17:12:15.711Z"
+    }
+  ],
+  "bigneu_sosoaf": [
+    {
+      "from": "sosoaf",
+      "to": "bigneu",
+      "text": "OI vinibigneu",
+      "timestamp": "2025-04-08T17:27:24.319Z"
+    }
+  ]
+}

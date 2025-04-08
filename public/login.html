@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Chat Telegram</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo">
+                <i class="fas fa-comments"></i>
+                <h1>Telegram Style</h1>
+            </div>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="login">Login</button>
+                <button class="tab-btn" data-tab="register">Cadastro</button>
+            </div>
+            
+            <form id="login-form" class="tab-content active">
+                <div class="form-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" placeholder="Digite seu usuário" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+                
+                <button type="submit" class="login-btn">
+                    <i class="fas fa-sign-in-alt"></i> Entrar
+                </button>
+                
+                <div id="login-error" class="error-message"></div>
+            </form>
+            
+            <form id="register-form" class="tab-content">
+                <div class="form-group">
+                    <label for="reg-name">Nome Completo</label>
+                    <input type="text" id="reg-name" placeholder="Digite seu nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-username">Nome de Usuário</label>
+                    <input type="text" id="reg-username" placeholder="Escolha um nome de usuário" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-password">Senha</label>
+                    <input type="password" id="reg-password" placeholder="Crie uma senha" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-confirm-password">Confirmar Senha</label>
+                    <input type="password" id="reg-confirm-password" placeholder="Repita a senha" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Foto de Perfil</label>
+                    <input type="file" id="reg-avatar" accept="image/*" class="hidden">
+                    <div class="avatar-preview" id="avatar-preview">
+                        <i class="fas fa-user-circle default-avatar"></i>
+                    </div>
+                    <button type="button" id="choose-avatar" class="avatar-btn">
+                        <i class="fas fa-camera"></i> Escolher imagem
+                    </button>
+                </div>
+                
+                <button type="submit" class="register-btn">
+                    <i class="fas fa-user-plus"></i> Cadastrar
+                </button>
+                
+                <div id="register-error" class="error-message"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

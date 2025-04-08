@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Telegram Style</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="telegram-app">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="current-user">
+                    <i class="fas fa-user-circle"></i>
+                    <span id="current-username"></span>
+                </div>
+            </div>
+            <div class="chat-list">
+                <div class="chat-list-header">Contatos</div>
+                <div id="users-list" class="users-list">
+                    <!-- Usuários serão carregados aqui -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="chat-area">
+            <div class="chat-header">
+                <div class="chat-info">
+                    <div class="chat-title" id="chat-with-user">Selecione um contato</div>
+                </div>
+            </div>
+
+            <div id="messages-container" class="messages-container">
+                <!-- Mensagens serão carregadas aqui -->
+            </div>
+
+            <div class="message-input-area" id="message-input-area">
+                <form id="message-form" class="hidden">
+                    <div class="input-actions">
+                        <button type="button"><i class="fas fa-paperclip"></i></button>
+                        <button type="button"><i class="far fa-smile"></i></button>
+                    </div>
+                    <input type="text" id="message-input" placeholder="Escreva uma mensagem..." autocomplete="off">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
